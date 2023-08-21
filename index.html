@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet At</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--en dış kapsayan-->
+    <div class="wrapper">
+        <!--tweet kısmının olacağı yer-->
+        <div class="input-box">
+            <!--yazılan tweetin görüleceği kısım başlangıç-->
+            <div class="tweet-area">
+                <span class="placeHolder">Whats Happening?</span>
+                <div class="input editable" contenteditable="true" spellcheck="false"></div>
+                <div class="input readonly" contenteditable="true" spellcheck="false"></div>
+            </div>
+            <!--yazılan tweetin görüleceği kısım bitiş-->
+
+
+            <div class="privacy">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>Everyone can reply</span>
+            </div>
+        </div>
+
+        <!--tweet kısmının olacağı yer-->
+        <div class="bottom">
+
+            <!--icon bar-->
+            <ul class="icons">
+                <li><i class="fa-solid fa-file-image"></i></li>
+                <li><i class="fa-solid fa-location-dot"></i></li>
+                <li><i class="fa-regular fa-face-smile"></i></li>
+                <li><i class="fa-regular fa-user"></i></li>
+            </ul>
+<!--icon bar bitiş-->
+
+
+<!--tweet butonu ve sayaç alanı-->
+            <div class="content">
+                <span class="counter">100</span>
+                <button class="button active">Tweet</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
